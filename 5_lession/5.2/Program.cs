@@ -22,8 +22,8 @@ string Poisk(int[] arr, int num)
 {
     for (int i = 0; i < arr.Length; i++)
     {
-        if(num == arr[i])
-        return "Yes";
+        if (num == arr[i])
+            return "Yes";
     }
     return "No";
 }
